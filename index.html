@@ -1,0 +1,632 @@
+<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Tue Jun 22 2021 15:56:29 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6056c30d0e01ad6da511ea9b" data-wf-site="6056c30d0e01ad841c11ea9a">
+<head>
+  <meta charset="utf-8">
+  <title>Ly21 HER</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/ly21-her.webflow.css" rel="stylesheet" type="text/css">
+  <style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="222de931-1c57-6a71-37ff-d89cda06c2e5"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="44857480-3207-564b-243c-a6d1788b8c85"] {width:0px;height:0px;opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="b8159104-0796-ba4c-eb07-4a0c2f81e354"] {background-color:rgba(0,0,0,0);border-color:rgba(0,0,0,0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="cdd5e167-a006-642f-cdb2-f03b75e3912c"] {-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);height:0px;}html.w-mod-js:not(.w-mod-ix) [data-w-id="d68e4f50-2be8-52ab-3dab-729abb287f1e"] {width:0px;height:0px;opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="5a601c7d-cede-b865-986c-4ee031580a08"] {-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);height:0px;}html.w-mod-js:not(.w-mod-ix) [data-w-id="e19d7a40-b0be-9b1c-d812-04607d941281"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="96b75c5b-1fc6-e69a-7bc5-b15e86a2062c"] {width:0px;height:0px;opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="96b75c5b-1fc6-e69a-7bc5-b15e86a20629"] {background-color:rgba(0,0,0,0);border-color:rgba(0,0,0,0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="96b75c5b-1fc6-e69a-7bc5-b15e86a2062e"] {-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);height:0px;}html.w-mod-js:not(.w-mod-ix) [data-w-id="d2f33ab2-0078-cc3b-1908-45f1a744ddab"] {opacity:0;}}@media (max-width:991px) and (min-width:768px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="222de931-1c57-6a71-37ff-d89cda06c2e5"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="44857480-3207-564b-243c-a6d1788b8c85"] {width:0px;height:0px;opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="b8159104-0796-ba4c-eb07-4a0c2f81e354"] {background-color:rgba(0,0,0,0);border-color:rgba(0,0,0,0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="cdd5e167-a006-642f-cdb2-f03b75e3912c"] {-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);height:0px;}html.w-mod-js:not(.w-mod-ix) [data-w-id="d68e4f50-2be8-52ab-3dab-729abb287f1e"] {width:0px;height:0px;opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="5a601c7d-cede-b865-986c-4ee031580a08"] {-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);height:0px;}html.w-mod-js:not(.w-mod-ix) [data-w-id="e19d7a40-b0be-9b1c-d812-04607d941281"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="96b75c5b-1fc6-e69a-7bc5-b15e86a2062c"] {width:0px;height:0px;opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="96b75c5b-1fc6-e69a-7bc5-b15e86a20629"] {background-color:rgba(0,0,0,0);border-color:rgba(0,0,0,0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="96b75c5b-1fc6-e69a-7bc5-b15e86a2062e"] {-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);height:0px;}html.w-mod-js:not(.w-mod-ix) [data-w-id="d2f33ab2-0078-cc3b-1908-45f1a744ddab"] {opacity:0;}}</style>
+  <script src="https://use.typekit.net/ozy3dcq.js" type="text/javascript"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+</head>
+<body class="main">
+  <div data-w-id="19cb4634-db4c-8f1a-3a14-7f5652019f2d" style="display:flex;opacity:1" class="preloader">
+    <div class="preloader__animation">
+      <div style="-webkit-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="preloader__dot _1"></div>
+      <div style="-webkit-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="preloader__dot _2"></div>
+      <div style="-webkit-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="preloader__dot _3"></div>
+    </div>
+  </div>
+  <div data-w-id="66cb9686-3d70-ee98-2887-68fa054c1577" style="display:none;opacity:0" class="scroll-loader">
+    <div class="preloader__animation">
+      <div style="-webkit-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="preloader__dot _1"></div>
+      <div style="-webkit-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="preloader__dot _2"></div>
+      <div style="-webkit-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="preloader__dot _3"></div>
+    </div>
+  </div>
+  <div class="section header">
+    <div class="container header w-container">
+      <h1 class="h1"><br>H.E.R.<br><span class="h1 sub">IT&#x27;S TIME TO TELL HER STORY</span></h1>
+      <div class="img-group">
+        <div class="header__image heroine">
+          <a href="#heroine" class="header__link-block w-inline-block"><img src="images/LY21_HeroineJerseyRenderLeft_480.png" loading="eager" alt="lynx heroine jersey spotlight">
+            <div class="header__tag">HEROINE</div>
+          </a>
+        </div>
+        <div class="header__image explorer">
+          <a href="#explorer" class="header__link-block w-inline-block"><img src="images/LY21_ExplorerJerseyRenderCenter_480.png" loading="eager" alt="lynx explorer jersey spotlight">
+            <div class="header__tag explorer">EXPLORER</div>
+          </a>
+        </div>
+        <div class="header__image rebel">
+          <a href="#rebel" class="header__link-block w-inline-block"><img src="images/LY21_RebelJerseyRenderRight_480.png" loading="eager" alt="lynx rebel jersey spotlight">
+            <div class="header__tag rebel">REBEL</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="mantra" data-w-id="9807810f-bf19-79e9-6167-fae79514c102" class="section mantra">
+    <div class="mantra__container w-container">
+      <div data-w-id="aaefdc11-4f7c-d109-59c3-537459db789a" class="mantra__background"></div>
+      <div class="mantra__view">
+        <p id="mantra-trigger" data-w-id="91fc6c04-bcef-868f-d7c0-f032ebaa160a" class="mantra__text popup _1"><span>Her</span> story has <span class="text__highlight">legacy</span> written all over it. <br><span class="text__emph"></span></p>
+        <p data-w-id="103eca7d-40b8-fb5f-141b-f930cebd6247" class="mantra__text popup _2">She’s a <span class="text__highlight">heroine</span> of the game.<br>An <span class="text__highlight">explorer</span> for the path ahead.<br>A <span class="text__highlight">rebel</span> ready to wreak havoc where she stands. <br><span class="text__emph"></span></p>
+        <p data-w-id="63a4e689-3a80-75f7-ad3c-8ada6afefc54" class="mantra__text popup _3">Her journey is filled with<br>obstacles.<br>Trials.<br>Tribulations.<br><span class="text__emph"></span></p>
+        <p data-w-id="0b844ab7-c731-513d-f956-03b557ea9214" class="mantra__text popup _4">But she’s <span class="text__highlight">fierce</span>.<br>She’s <span class="text__highlight">unapologetic</span>.<br>And she’s <span class="text__highlight">on the hunt</span> to make history.<br><span class="text__emph"></span></p>
+        <p data-w-id="2e35fe40-3cfa-1ad6-0566-7564cbfc070a" class="mantra__text popup _5">Because she was <span>born for this</span>.<br>Made to <span class="text__highlight">make waves</span>.<br>Designed to <span class="text__highlight">dominate</span>.<br><span class="text__highlight">Defy</span> convention and <span class="text__highlight">shatter</span> ceilings.<br><span class="text__emph"></span></p>
+        <p data-w-id="68244950-e171-310a-32ca-344cb121d18c" class="mantra__text popup _6">Most stories come to an end.<br>But hers is <span class="text__highlight">non-stop</span>.<br>Her work is never done.</p>
+        <p data-w-id="7f4829f9-8cc0-ceef-ee41-edeb49215bd1" class="mantra__text popup _7">She’s here to <span class="text__highlight">stay</span>.<br>She’s here to <span class="text__highlight">inspire</span>.<br>She’s here to <span class="text__highlight">fight</span>.<br><span class="text__emph popup text__highlight">Forever.</span><br><span class="text__emph"></span></p>
+        <p data-w-id="b51473d2-540f-5aa5-bdd7-21ce8537c40b" class="mantra__text popup _8">These uniforms represent <br><span class="text__emph popup text__highlight">HER</span><br><span>Heroine. </span><span>Explorer. </span>‍<span>Rebel.</span></p>
+        <p data-w-id="5156538a-9105-9d85-90d3-009d0c305e64" class="mantra__text popup _9"><span class="text__emph popup">It’s time to tell HER story.</span></p>
+      </div>
+      <div data-w-id="12c32b3c-5999-51f7-a420-c69bf3c5deb6" class="seemore__block">
+        <a href="#mantra-trigger" style="border-color:rgb(121,188,67)" class="seemore__link w-inline-block">
+          <div class="arrow down"></div>
+        </a>
+        <div class="text-block">TAP OR SCROLL DOWN</div>
+      </div>
+      <div data-w-id="dc1320d3-d9ce-5f7e-5887-25c95a046d1a" class="continue__block">
+        <div class="text-block">SCROLL TO CONTINUE</div>
+        <div class="continue__wrapper">
+          <div data-w-id="9c627302-471a-f3c4-9059-a302db4805ab" style="-webkit-transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0);-moz-transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0);-ms-transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0);transform:translate3d(0, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0);border-color:rgb(121,188,67)" class="arrow down continue"></div>
+          <div data-w-id="c45979a2-5b6b-d6c8-b58b-8623de4c4d13" style="border-color:rgb(121,188,67);-webkit-transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0);-moz-transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0);-ms-transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0);transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(45deg) skew(0, 0)" class="arrow down continue"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="heroine" class="section jersey heroine">
+    <div class="container w-container">
+      <div class="jersey__block">
+        <div class="jersey__viz">
+          <div class="jersey__crop heroine"><img src="images/LY21_HeroineJerseyRenderRight_480.png" loading="lazy" alt="lynx heroine jersey main image" class="jersey__img">
+            <div class="jersey__gradient"></div>
+          </div>
+          <div class="jersey__gallery">
+            <a href="#" id="w-node-_509c7657-cb99-9a27-d25e-d8cf8610a140-a511ea9b" class="lightbox-link w-inline-block w-lightbox"><img src="images/ly21-her-heroine-detail_27.jpg" loading="lazy" alt="lynx heroine jersey detail logo" class="lightbox-image heroine-1">
+              <div class="lightbox-inner">
+                <div class="playbutton">
+                  <div class="triangle"></div>
+                </div>
+                <div class="lightbox-text">WATCH THE VIDEO</div>
+              </div>
+              <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "video",
+      "originalUrl": "https://www.youtube.com/watch?v=VR4RTgHj1vE&autoplay=1",
+      "url": "https://www.youtube.com/watch?v=VR4RTgHj1vE&autoplay=1",
+      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FVR4RTgHj1vE%3Ffeature%3Doembed%26autoplay%3D1&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVR4RTgHj1vE&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FVR4RTgHj1vE%2Fhqdefault.jpg&args=autoplay%3D1&key=96f1f04c5f4143bcb0f2e68c87d65feb&autoplay=1&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VR4RTgHj1vE/hqdefault.jpg",
+      "width": 940,
+      "height": 528
+    }
+  ],
+  "group": "heroine"
+}</script>
+            </a>
+            <a href="#" id="w-node-c7d4027f-526a-8fca-fa06-50c895613a8b-a511ea9b" class="lightbox-link w-inline-block w-lightbox"><img src="images/ly21-her-heroine_3.jpg" loading="lazy" srcset="images/ly21-her-heroine_3-p-500.jpeg 500w, images/ly21-her-heroine_3-p-1080.jpeg 1080w, images/ly21-her-heroine_3.jpg 1342w" sizes="(max-width: 479px) 100vw, 480px" alt="lynx heroine jersey on figure sylvia" class="lightbox-image heroine-2">
+              <div class="lightbox-inner">
+                <div class="lightbox-text">VIEW THE GALLERY</div>
+              </div>
+              <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 1342,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 895,
+      "fileName": "606b7166c7427a352754f494_ly21-her-heroine_3.jpg",
+      "origFileName": "ly21-her-heroine_3.jpg",
+      "url": "images/ly21-her-heroine_3.jpg",
+      "_id": "606b7166c7427a352754f494",
+      "type": "image",
+      "fileSize": 163515
+    },
+    {
+      "width": 922,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 1382,
+      "fileName": "606dfcaf871f337894725223_Lynx_Heroine--1.jpg",
+      "origFileName": "Lynx_Heroine--1.jpg",
+      "url": "images/Lynx_Heroine--1.jpg",
+      "_id": "606dfcaf871f337894725223",
+      "type": "image",
+      "fileSize": 147842
+    },
+    {
+      "width": 848,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 1158,
+      "fileName": "Lynx_Heroine--4.jpg",
+      "origFileName": "Lynx_Heroine--4.jpg",
+      "url": "images/Lynx_Heroine--4.jpg",
+      "_id": "606e2fa540f2847ec5a27c4a",
+      "type": "image",
+      "fileSize": 82457
+    },
+    {
+      "width": 922,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 1382,
+      "fileName": "Lynx_Heroine-6194.jpg",
+      "origFileName": "Lynx_Heroine-6194.jpg",
+      "url": "images/Lynx_Heroine-6194.jpg",
+      "_id": "606e3342c6c42b3d6c0c7262",
+      "type": "image",
+      "fileSize": 156132
+    },
+    {
+      "width": 922,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 1290,
+      "fileName": "Lynx_Heroine-6294.jpg",
+      "origFileName": "Lynx_Heroine-6294.jpg",
+      "url": "images/Lynx_Heroine-6294.jpg",
+      "_id": "606e338040f284511ea2931e",
+      "type": "image",
+      "fileSize": 100119
+    }
+  ],
+  "group": "heroine"
+}</script>
+            </a>
+            <a href="#" id="w-node-_9801729c-e686-8fdf-15ce-b713418cf026-a511ea9b" class="lightbox-link w-inline-block w-lightbox"><img src="images/ly21-her-heroine-detail_10.jpg" loading="lazy" alt="lynx heroine jersey on figure waistband" class="lightbox-image heroine-3">
+              <div class="lightbox-inner">
+                <div class="lightbox-text">SEE THE DETAILS</div>
+              </div>
+              <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 872,
+      "caption": "",
+      "height": 583,
+      "fileName": "606c8b3f3fd00ae480c12ca6_ly21-her-heroine-detail_10.jpg",
+      "origFileName": "ly21-her-heroine-detail_10.jpg",
+      "url": "images/ly21-her-heroine-detail_10.jpg",
+      "_id": "606c8b3f3fd00ae480c12ca6",
+      "type": "image",
+      "fileSize": 52514
+    },
+    {
+      "type": "image",
+      "_id": "606c8b40944a82772d5e84c9",
+      "fileName": "606c8b40944a82772d5e84c9_ly21-her-heroine-detail_17.jpg",
+      "origFileName": "ly21-her-heroine-detail_17.jpg",
+      "width": 872,
+      "height": 583,
+      "fileSize": 69940,
+      "url": "images/ly21-her-heroine-detail_17.jpg"
+    },
+    {
+      "type": "image",
+      "_id": "606c8b40754c706c0be11db9",
+      "fileName": "ly21-her-heroine-detail_21.jpg",
+      "origFileName": "ly21-her-heroine-detail_21.jpg",
+      "width": 872,
+      "height": 583,
+      "fileSize": 73773,
+      "url": "images/ly21-her-heroine-detail_21.jpg"
+    },
+    {
+      "type": "image",
+      "_id": "606c8b40d9bcad33a72bbfb8",
+      "fileName": "606c8b40d9bcad33a72bbfb8_ly21-her-heroine-detail_27.jpg",
+      "origFileName": "ly21-her-heroine-detail_27.jpg",
+      "width": 872,
+      "height": 583,
+      "fileSize": 50490,
+      "url": "images/ly21-her-heroine-detail_27.jpg"
+    },
+    {
+      "type": "image",
+      "_id": "606c8b41d6150cb104ddcee9",
+      "fileName": "ly21-her-heroine-detail_32.jpg",
+      "origFileName": "ly21-her-heroine-detail_32.jpg",
+      "width": 872,
+      "height": 583,
+      "fileSize": 30441,
+      "url": "images/ly21-her-heroine-detail_32.jpg"
+    },
+    {
+      "type": "image",
+      "_id": "606c8b3f0fbb6bbcc43d0674",
+      "fileName": "606c8b3f0fbb6bbcc43d0674_ly21-her-heroine-detail_7.jpg",
+      "origFileName": "ly21-her-heroine-detail_7.jpg",
+      "width": 583,
+      "height": 872,
+      "fileSize": 59932,
+      "url": "images/ly21-her-heroine-detail_7.jpg"
+    }
+  ],
+  "group": "heroine"
+}</script>
+            </a>
+          </div>
+        </div>
+        <div data-w-id="96c082ba-e7fb-0989-1b6a-252eb9a48e52" class="jersey__info">
+          <div class="jersey__bracket img-left">
+            <div data-w-id="b8159104-0796-ba4c-eb07-4a0c2f81e354" class="jersey__dot">
+              <div class="jersey__title left">HEROINE</div>
+            </div>
+            <div data-w-id="44857480-3207-564b-243c-a6d1788b8c85" class="jersey__connector img-left overlay"></div>
+            <div class="jersey__connector img-left shadow"></div>
+          </div>
+          <div class="jersey__textbox">
+            <div aria-hidden="true" class="jersey__highlight shadow">
+              <p class="jersey__text template-override">TheHeroine uniform showcases Minnesota’s courageous nature to rise above adversity and fight for what’s right. It’s sophisticated yet timeless look pays homage to our team’s DNA like never before. The Heroine represents the resiliency that runs through our veins.</p>
+            </div>
+            <div data-w-id="cdd5e167-a006-642f-cdb2-f03b75e3912c" class="jersey__highlight overlay">
+              <p class="jersey__text template-override">The Heroine uniform showcases Minnesota’s courageous nature to rise above adversity and fight for what’s right. It’s sophisticated yet timeless look pays homage to our team’s DNA like never before. The Heroine represents the resiliency that runs through our veins.</p>
+            </div>
+            <div class="jersey__gradient"></div>
+            <a rel="nofollow noopener noreferrer" href="https://lynxteamstore.com/collections/explorer-and-rebel-jerseys?utm_source=LY.WEB&amp;utm_medium=LY.WEB.HER.LP&amp;utm_campaign=H.E.R.%20Presale" target="_blank" class="jersey__cta hidden w-button">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="explorer" class="section jersey explorer">
+    <div class="container w-container">
+      <div class="jersey__block">
+        <div class="jersey__viz img-right">
+          <div class="jersey__crop explorer"><img src="images/LY21_ExplorerJerseyRenderLeft_480.png" loading="lazy" alt="lynx explorer jersey main image" class="jersey__img">
+            <div class="jersey__gradient"></div>
+          </div>
+          <div class="jersey__gallery img-right">
+            <a href="#" id="w-node-c63efc2c-0d78-44eb-93fa-63d0acba60f1-a511ea9b" class="lightbox-link w-inline-block w-lightbox"><img src="images/Lynx_Explorer-000035630012.jpg" loading="lazy" srcset="images/Lynx_Explorer-000035630012-p-500.jpeg 500w, images/Lynx_Explorer-000035630012-p-1080.jpeg 1080w, images/Lynx_Explorer-000035630012.jpg 1158w" sizes="(max-width: 479px) 264.90625px, (max-width: 991px) 230.765625px, 264.90625px" alt="lynx explorer jersey on figure dangerfield" class="lightbox-image explorer-1">
+              <div class="lightbox-inner">
+                <div class="playbutton">
+                  <div class="triangle"></div>
+                </div>
+                <div class="lightbox-text">WATCH THE VIDEO</div>
+              </div>
+              <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "video",
+      "originalUrl": "https://youtu.be/01cYb5H5nY0&autoplay=1",
+      "url": "https://youtube.com/watch?v=01cYb5H5nY0&autoplay=1",
+      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F01cYb5H5nY0%3Ffeature%3Doembed%26autoplay%3D1&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D01cYb5H5nY0&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F01cYb5H5nY0%2Fhqdefault.jpg&args=autoplay%3D1&key=96f1f04c5f4143bcb0f2e68c87d65feb&autoplay=1&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
+      "thumbnailUrl": "https://i.ytimg.com/vi/01cYb5H5nY0/hqdefault.jpg",
+      "width": 940,
+      "height": 528
+    },
+    {
+      "width": 1158,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 848,
+      "fileName": "Lynx_Explorer-000035630012.jpg",
+      "origFileName": "Lynx_Explorer-000035630012.jpg",
+      "url": "images/Lynx_Explorer-000035630012.jpg",
+      "_id": "606e03a106a64b31b8a36762",
+      "type": "image",
+      "fileSize": 197611
+    }
+  ],
+  "group": "explorer"
+}</script>
+            </a>
+            <a href="#" id="w-node-c63efc2c-0d78-44eb-93fa-63d0acba60ef-a511ea9b" class="lightbox-link w-inline-block w-lightbox"><img src="images/Lynx_Explorer--7.jpg" loading="lazy" height="" sizes="(max-width: 479px) 290.78125px, (max-width: 991px) 253.3125px, 290.78125px" srcset="images/Lynx_Explorer--7-p-1080.jpeg 1080w, images/Lynx_Explorer--7.jpg 1382w" alt="lynx explorer jersey on figure 2 dangerfield banham" class="lightbox-image explorer-2">
+              <div class="lightbox-inner">
+                <div class="lightbox-text">VIEW THE GALLERY</div>
+              </div>
+              <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 1382,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 922,
+      "fileName": "Lynx_Explorer--7.jpg",
+      "origFileName": "Lynx_Explorer--7.jpg",
+      "url": "images/Lynx_Explorer--7.jpg",
+      "_id": "606dff178de9317b5645bdf0",
+      "type": "image",
+      "fileSize": 237958
+    },
+    {
+      "width": 822,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 1090,
+      "fileName": "Lynx_Explorer--15.jpg",
+      "origFileName": "Lynx_Explorer--15.jpg",
+      "url": "images/Lynx_Explorer--15.jpg",
+      "_id": "606dff17ae9c87c84b9ba6f0",
+      "type": "image",
+      "fileSize": 191317
+    },
+    {
+      "width": 922,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 1382,
+      "fileName": "Lynx_Explorer-4890.jpg",
+      "origFileName": "Lynx_Explorer-4890.jpg",
+      "url": "images/Lynx_Explorer-4890.jpg",
+      "_id": "606e307a16592ccdeb0753fd",
+      "type": "image",
+      "fileSize": 225791
+    },
+    {
+      "width": 922,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 1382,
+      "fileName": "Lynx_Explorer--8.jpg",
+      "origFileName": "Lynx_Explorer--8.jpg",
+      "url": "images/Lynx_Explorer--8.jpg",
+      "_id": "606dff1704734d72d2c8de32",
+      "type": "image",
+      "fileSize": 303065
+    },
+    {
+      "width": 922,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 1290,
+      "fileName": "Lynx_Explorer--10.jpg",
+      "origFileName": "Lynx_Explorer--10.jpg",
+      "url": "images/Lynx_Explorer--10.jpg",
+      "_id": "606e04f80faa3c2f20b6fdd1",
+      "type": "image",
+      "fileSize": 153470
+    }
+  ],
+  "group": "explorer"
+}</script>
+            </a>
+            <a href="#" id="w-node-c63efc2c-0d78-44eb-93fa-63d0acba60f3-a511ea9b" class="lightbox-link w-inline-block w-lightbox"><img src="images/ly21-her-explorer-detail_11.jpg" loading="lazy" alt="lynx explorer jersey detail shorts pattern" class="lightbox-image explorer-3">
+              <div class="lightbox-inner">
+                <div class="lightbox-text">SEE THE DETAILS</div>
+              </div>
+              <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "606c8b3dfb14ec6645c4c937",
+      "fileName": "ly21-her-explorer-detail_24.jpg",
+      "origFileName": "ly21-her-explorer-detail_24.jpg",
+      "width": 872,
+      "height": 583,
+      "fileSize": 63685,
+      "url": "images/ly21-her-explorer-detail_24.jpg"
+    },
+    {
+      "width": 583,
+      "caption": "",
+      "height": 872,
+      "fileName": "606c8b3c4ecbd97f27ea1f28_ly21-her-explorer-detail_11.jpg",
+      "origFileName": "ly21-her-explorer-detail_11.jpg",
+      "url": "images/ly21-her-explorer-detail_11.jpg",
+      "_id": "606c8b3c4ecbd97f27ea1f28",
+      "type": "image",
+      "fileSize": 62010
+    },
+    {
+      "type": "image",
+      "_id": "606c8b3db6d2e1281e8fe58a",
+      "fileName": "606c8b3db6d2e1281e8fe58a_ly21-her-explorer-detail_29.jpg",
+      "origFileName": "ly21-her-explorer-detail_29.jpg",
+      "width": 872,
+      "height": 583,
+      "fileSize": 114933,
+      "url": "images/ly21-her-explorer-detail_29.jpg"
+    },
+    {
+      "type": "image",
+      "_id": "606c8b3e4d8fb26488783c5c",
+      "fileName": "606c8b3e4d8fb26488783c5c_ly21-her-explorer-detail_32.jpg",
+      "origFileName": "ly21-her-explorer-detail_32.jpg",
+      "width": 872,
+      "height": 583,
+      "fileSize": 69312,
+      "url": "images/ly21-her-explorer-detail_32.jpg"
+    }
+  ],
+  "group": "explorer"
+}</script>
+            </a>
+          </div>
+        </div>
+        <div data-w-id="222de931-1c57-6a71-37ff-d89cda06c2e3" class="jersey__info img-right">
+          <div class="jersey__bracket img-right">
+            <div data-w-id="222de931-1c57-6a71-37ff-d89cda06c2e5" class="jersey__dot img-right">
+              <div class="jersey__title img-right explorer">EXPLORER</div>
+            </div>
+            <div data-w-id="d68e4f50-2be8-52ab-3dab-729abb287f1e" class="jersey__connector img-right overlay"></div>
+            <div class="jersey__connector img-right shadow"></div>
+          </div>
+          <div class="jersey__textbox">
+            <div aria-hidden="true" class="jersey__highlight shadow">
+              <p class="jersey__text template-override">The Explorer uniform channels the ambitious spirit of our team as we carve a legacy on the game and create new paths for change. In its essence, the uniform tells stories of the past and present and blazes trails for the future. The Explorer represents the relentless desire to hunt what’s next.</p>
+            </div>
+            <div data-w-id="5a601c7d-cede-b865-986c-4ee031580a08" class="jersey__highlight overlay">
+              <p class="jersey__text template-override">The Explorer uniform channels the ambitious spirit of our team as we carve a legacy on the game and create new paths for change. In its essence, the uniform tells stories of the past and present and blazes trails for the future. The Explorer represents the relentless desire to hunt what’s next.</p>
+            </div>
+            <div class="jersey__gradient">
+              <a rel="noopener nofollow noreferrer" data-w-id="e19d7a40-b0be-9b1c-d812-04607d941281" href="https://lynxteamstore.com/collections/explorer-and-rebel-jerseys?utm_source=LY.WEB&amp;utm_medium=LY.WEB.HER.LP&amp;utm_campaign=H.E.R.%20Presale" target="_blank" class="jersey__cta w-button">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="rebel" class="section jersey rebel">
+    <div class="container w-container">
+      <div class="jersey__block">
+        <div class="jersey__viz">
+          <div class="jersey__crop"><img src="images/LY21_RebelJerseyRenderRight_480.png" loading="lazy" alt="lynx rebel jersey main image" class="jersey__img template-override">
+            <div class="jersey__gradient"></div>
+          </div>
+          <div class="jersey__gallery">
+            <a href="#" id="w-node-b3e97db5-9c98-6a5d-779b-3d6ea2a6043b-a511ea9b" class="lightbox-link w-inline-block w-lightbox"><img src="images/ly21-her-rebel15.jpg" loading="lazy" srcset="images/ly21-her-rebel15-p-500.jpeg 500w, images/ly21-her-rebel15.jpg 1382w" sizes="(max-width: 479px) 100vw, (max-width: 991px) 253.3125px, 290.78125px" alt="lynx rebel jersey on figure back number" class="lightbox-image rebel-1">
+              <div class="lightbox-inner">
+                <div class="playbutton">
+                  <div class="triangle"></div>
+                </div>
+                <div class="lightbox-text">WATCH THE VIDEO</div>
+              </div>
+              <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "video",
+      "originalUrl": "https://youtu.be/_VC6ikZ7pdY&autoplay=1",
+      "url": "https://youtube.com/watch?v=_VC6ikZ7pdY&autoplay=1",
+      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F_VC6ikZ7pdY%3Ffeature%3Doembed%26autoplay%3D1&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D_VC6ikZ7pdY&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F_VC6ikZ7pdY%2Fhqdefault.jpg&args=autoplay%3D1&key=96f1f04c5f4143bcb0f2e68c87d65feb&autoplay=1&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_VC6ikZ7pdY/hqdefault.jpg",
+      "width": 940,
+      "height": 528
+    },
+    {
+      "width": 1382,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 922,
+      "fileName": "ly21-her-rebel15.jpg",
+      "origFileName": "ly21-her-rebel15.jpg",
+      "url": "images/ly21-her-rebel15.jpg",
+      "_id": "606b7167acefc324d7196fdd",
+      "type": "image",
+      "fileSize": 124353
+    }
+  ],
+  "group": "rebel"
+}</script>
+            </a>
+            <a href="#" id="w-node-b3e97db5-9c98-6a5d-779b-3d6ea2a60439-a511ea9b" class="lightbox-link w-inline-block w-lightbox"><img src="images/ly21-her-rebel_03.jpg" loading="lazy" srcset="images/ly21-her-rebel_03-p-500.jpeg 500w, images/ly21-her-rebel_03-p-800.jpeg 800w, images/ly21-her-rebel_03.jpg 922w" sizes="(max-width: 479px) 54vw, (max-width: 767px) 23vw, (max-width: 991px) 128.921875px, 171.328125px" alt="lynx rebel jersey on figure aerial powers" class="lightbox-image rebel-2">
+              <div class="lightbox-inner">
+                <div class="lightbox-text">VIEW THE GALLERY</div>
+              </div>
+              <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 922,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 1382,
+      "fileName": "606b71666c1d868c5fdbb471_ly21-her-rebel3.jpg",
+      "origFileName": "ly21-her-rebel_03.jpg",
+      "url": "images/ly21-her-rebel_03.jpg",
+      "_id": "606b71666c1d868c5fdbb471",
+      "type": "image",
+      "fileSize": 219121
+    },
+    {
+      "width": 922,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 1382,
+      "fileName": "606b71667ef6c244df2b0708_ly21-her-rebel9.jpg",
+      "origFileName": "ly21-her-rebel_09.jpg",
+      "url": "images/ly21-her-rebel_09.jpg",
+      "_id": "606b71667ef6c244df2b0708",
+      "type": "image",
+      "fileSize": 107500
+    },
+    {
+      "width": 848,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 1158,
+      "fileName": "606b716685a48d1d0c7e7848_ly21-her-rebel1.jpg",
+      "origFileName": "ly21-her-rebel_01.jpg",
+      "url": "images/ly21-her-rebel_01.jpg",
+      "_id": "606b716685a48d1d0c7e7848",
+      "type": "image",
+      "fileSize": 149709
+    },
+    {
+      "width": 860,
+      "caption": "Photograph by Stephanie Sunberg",
+      "height": 1240,
+      "fileName": "606b71672ef1637355b265de_ly21-her-rebel10.jpg",
+      "origFileName": "ly21-her-rebel_10.jpg",
+      "url": "images/ly21-her-rebel_10.jpg",
+      "_id": "606b71672ef1637355b265de",
+      "type": "image",
+      "fileSize": 139833
+    }
+  ],
+  "group": "rebel"
+}</script>
+            </a>
+            <a href="#" id="w-node-b3e97db5-9c98-6a5d-779b-3d6ea2a6043d-a511ea9b" class="lightbox-link w-inline-block w-lightbox"><img src="images/ly21-her-rebel-detail_20.jpg" loading="lazy" width="436" alt="lynx rebel jersey detail waistband" class="lightbox-image rebel-3">
+              <div class="lightbox-inner">
+                <div class="lightbox-text">SEE THE DETAILS</div>
+              </div>
+              <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "606c8b43983f7c0c8b05db45",
+      "fileName": "ly21-her-rebel-detail_20.jpg",
+      "origFileName": "ly21-her-rebel-detail_20.jpg",
+      "width": 872,
+      "height": 583,
+      "fileSize": 107537,
+      "url": "images/ly21-her-rebel-detail_20.jpg"
+    },
+    {
+      "type": "image",
+      "_id": "606c8b423fd00a572dc12ca7",
+      "fileName": "606c8b423fd00a572dc12ca7_ly21-her-rebel-detail_9.jpg",
+      "origFileName": "ly21-her-rebel-detail_9.jpg",
+      "width": 872,
+      "height": 583,
+      "fileSize": 90873,
+      "url": "images/ly21-her-rebel-detail_9.jpg"
+    },
+    {
+      "type": "image",
+      "_id": "606c8b433fd00a1989c12ca8",
+      "fileName": "606c8b433fd00a1989c12ca8_ly21-her-rebel-detail_16.jpg",
+      "origFileName": "ly21-her-rebel-detail_16.jpg",
+      "width": 583,
+      "height": 872,
+      "fileSize": 81157,
+      "url": "images/ly21-her-rebel-detail_16.jpg"
+    },
+    {
+      "type": "image",
+      "_id": "606c8b43944a8262175e84cd",
+      "fileName": "606c8b43944a8262175e84cd_ly21-her-rebel-detail_17.jpg",
+      "origFileName": "ly21-her-rebel-detail_17.jpg",
+      "width": 872,
+      "height": 583,
+      "fileSize": 75145,
+      "url": "images/ly21-her-rebel-detail_17.jpg"
+    }
+  ],
+  "group": "rebel"
+}</script>
+            </a>
+          </div>
+        </div>
+        <div data-w-id="96b75c5b-1fc6-e69a-7bc5-b15e86a20627" class="jersey__info">
+          <div class="jersey__bracket img-left">
+            <div data-w-id="96b75c5b-1fc6-e69a-7bc5-b15e86a20629" class="jersey__dot">
+              <div class="jersey__title left rebel">REBEL</div>
+            </div>
+            <div data-w-id="96b75c5b-1fc6-e69a-7bc5-b15e86a2062c" class="jersey__connector img-left overlay"></div>
+            <div class="jersey__connector img-left shadow"></div>
+          </div>
+          <div class="jersey__textbox">
+            <div aria-hidden="true" class="jersey__highlight shadow">
+              <p class="jersey__text template-override">The Rebel uniform is bold and iconic by design and inspired by the legendary soul of First Avenue. When worn, the lights are on, the sound is loud, and we take centerstage. The Rebel represents the unapologetic and disruptive spirit of our team.</p>
+            </div>
+            <div data-w-id="96b75c5b-1fc6-e69a-7bc5-b15e86a2062e" class="jersey__highlight overlay">
+              <p class="jersey__text template-override">The Rebel uniform is bold and iconic by design and inspired by the legendary soul of First Avenue. When worn, the lights are on, the sound is loud, and we take centerstage. The Rebel represents the unapologetic and disruptive spirit of our team.</p>
+            </div>
+            <div class="jersey__gradient"></div>
+            <a rel="noreferrer nofollow noopener" data-w-id="d2f33ab2-0078-cc3b-1908-45f1a744ddab" href="https://lynxteamstore.com/collections/explorer-and-rebel-jerseys?utm_source=LY.WEB&amp;utm_medium=LY.WEB.HER.LP&amp;utm_campaign=H.E.R.%20Presale" target="_blank" class="jersey__cta w-button">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6056c30d0e01ad841c11ea9a" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
